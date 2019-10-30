@@ -12,6 +12,7 @@ namespace ConsoleAppEntityUsuarios
         static int TipoUsuario;
         static Usuario SeleccionUsu;
         static int respu = 1;
+        static String resp;
         static void Main(string[] args)
         {
             while (respu == 1)
@@ -32,8 +33,15 @@ namespace ConsoleAppEntityUsuarios
 
                 if (ContraseñaUsuario == seleccioncontra)
                 {
-                    Console.WriteLine("\nB I E N V E N I D O ! ! !\n");
-                    Console.WriteLine("\n¿Qué desea hacer?\n1.Insertar\n2.Actualizar\n3.Eliminar");
+                    Console.WriteLine("\nB I E N V E N I D O, "+ NombreUsuario+" ! ! !");
+                    Console.WriteLine("\n¿Qué desea hacer?\n1.Insertar\n2.Actualizar\n3.Eliminar\n\nDigite su respuesta: ");
+                    resp = Console.ReadLine();
+                    if (resp.Equals("1"))
+                    {
+
+                        Console.WriteLine("\n I N G R E S A R ");
+
+                    }
                     Console.ReadKey();
                     Environment.Exit(1);
                 }
