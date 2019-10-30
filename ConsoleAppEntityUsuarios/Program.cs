@@ -39,7 +39,7 @@ namespace ConsoleAppEntityUsuarios
                     if (resp.Equals("1"))
                     {
 
-                        Console.WriteLine("\n I N G R E S A R ");
+                        Console.WriteLine("\n I N G R E S A N D O ");
 
                     }
                     Console.ReadKey();
