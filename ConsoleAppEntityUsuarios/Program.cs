@@ -33,6 +33,7 @@ namespace ConsoleAppEntityUsuarios
                 if (ContraseñaUsuario == seleccioncontra)
                 {
                     Console.WriteLine("\nB I E N V E N I D O ! ! !\n");
+                    Console.WriteLine("\n¿Qué desea hacer?\n1.Insertar\n2.Actualizar\n3.Eliminar");
                     Console.ReadKey();
                     Environment.Exit(1);
                 }
